@@ -13,7 +13,7 @@ config_schema:
 
   - ["wifi.ap", "o", {title: "WiFi Access Point Config"}]
   - ["wifi.ap.enable", "b", true, {title: "Enable"}]
-  - ["wifi.ap.ssid", "s", "leMatrix_?????", {title: "SSID"}]
+  - ["wifi.ap.ssid", "s", "leMatrix_??????", {title: "SSID"}]
   - ["wifi.ap.pass", "s", "trinity", {title: "Password", type: "password"}]
   - ["wifi.ap.hidden", "b", false, {title: "Hide SSID"}]
   - ["wifi.ap.channel", "i", 6, {title: "Channel"}]
